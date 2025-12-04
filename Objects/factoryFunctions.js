@@ -4,7 +4,7 @@ function circleFunction(radius) {
   return {
     radius, // radius : radius, same like this
     draw() {
-      console.log("Drawing ...");
+      console.log("Drawing .....");
     },
   };
 }
