@@ -3,12 +3,15 @@
 function circleFunction(radius) {
   return {
     radius, // radius : radius, same like this
-    draw(value) {
-      console.log(`Draw`);
+    draw() {
+      console.log("Drawing ...");
     },
   };
 }
 
 const circle1 = circleFunction(3);
 console.log(circle1);
-console.log(circle1.draw);
+circle1.draw();
+
+const circle2 = circleFunction(5);
+console.log(circle2);
