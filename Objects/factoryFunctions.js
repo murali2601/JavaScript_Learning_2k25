@@ -16,7 +16,7 @@ circle1.draw();
 const circle2 = circleFunction(5);
 console.log(circle2);
 
-// OUTPUT
+ /* OUTPUT */
 /* { radius: 3, draw: [Function: draw] }
 Drawing ...
 { radius: 5, draw: [Function: draw] } */
