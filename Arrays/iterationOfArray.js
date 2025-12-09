@@ -11,6 +11,7 @@ console.log('\n');
 numbers.forEach((num,index) => { // index should be passed as an second argument
     console.log(`Index of ${index} is ${num}`)
 });
+
 /* 
 OUTPUT : 
 1
