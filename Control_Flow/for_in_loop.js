@@ -13,3 +13,5 @@ const color = ['red', 'blue', 'green'];
 
 for (let index in color)
     console.log(`The ${index} index is ${color[index]}`);
+
+console.log(typeof color[0]); // string  -> for in loop
