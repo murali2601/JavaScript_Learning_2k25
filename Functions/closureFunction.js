@@ -19,3 +19,19 @@ const result = fun_1();
 result(); // 25
 
 fun_1()(); // 25
+
+
+
+//var vs let in closure
+
+for(var i = 0;i<3;i++)
+{
+    setTimeout(() => console.log(i),1000); //3 3 3
+}
+
+setTimeout(() => console.log(`------------------------------`),1500);
+
+for(let j = 0;j<3;j++)
+{
+    setTimeout(() => console.log(j),2000); // 0 1 2
+}
