@@ -1,5 +1,8 @@
+/* The word “async” before a function means one simple thing: a function always returns a promise. 
+Other values are wrapped in a resolved promise automatically.
 
-
+The keyword await makes JavaScript wait until that promise settles and returns its result.
+ */
 function locationPromise(location)
 {
     return new Promise((resolve,reject) => {
