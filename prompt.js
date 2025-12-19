@@ -4,4 +4,4 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 
 let userInput = prompt("Enter the input : "); // prompt only works in browsers, not in node.js
 
-console.log(answer);
+console.log(userInput);
