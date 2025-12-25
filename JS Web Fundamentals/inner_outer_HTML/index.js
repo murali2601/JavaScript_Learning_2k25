@@ -30,7 +30,7 @@ hoverText.addEventListener('mouseleave', () => {
     hoverText.style.margin = "10px";
 })
 const context = document.querySelector("#context");
-// alert(context.textContent); 
+console.log(context.textContent); 
 
 function changeContent()
 {
